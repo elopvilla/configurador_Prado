@@ -1,23 +1,20 @@
-html, body {
-    min-height: 100%;
+html,
+body {
     height: 100%;
-  }
+}
 
-  .fill {
-    height: calc(100vh - 100px);
-  }
+.full-height {
+    height: 100%;
+}
 
-  body {
-    padding-top: 60px; /* space for the top nav bar */
-    margin-right: 30px;
-  }
+.selector-for-some-widget {
+    box-sizing: content-box;
+}
 
-  #appBuckets {
-    overflow: auto;
-    width: 100%;
-    height: calc(100vh - 150px);
-  }
+.displayFlex {
+    display: flex;
+}
 
-  #forgeViewer {
-    width: 100%;
-  }
+.justifyContentCenter {
+    justify-content: center;
+}
